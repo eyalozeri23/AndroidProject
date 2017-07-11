@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="9dp">
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/list_item_image_view"
+        android:layout_width="85dp"
+        android:layout_height="85dp"
+        android:src="@drawable/user" />
+
+    <TextView
+        android:id="@+id/list_item_first_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="18dp"
+        android:layout_marginTop="8dp"
+        android:layout_toRightOf="@+id/list_item_image_view"
+        android:text="name"
+        android:textSize="25dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/list_item_last_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="7dp"
+        android:layout_marginTop="8dp"
+        android:layout_toRightOf="@+id/list_item_first_name"
+        android:text="last"
+        android:textSize="25dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/list_item_date"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/list_item_first_name"
+        android:layout_marginLeft="105dp"
+        android:layout_marginTop="6dp"
+        android:text="20/12/1993"
+        android:textSize="17dp"
+        android:textStyle="bold" />
+
+
+</RelativeLayout>
